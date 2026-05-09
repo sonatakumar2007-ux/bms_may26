@@ -1,8 +1,6 @@
 #in=12345
 #luckydig=6
 #sum of digits till the number is a single digits
-import pdb
-pdb.set_trace()
 input_num=int(input("enter the number whose lucky digit is to be found\n"))
 list1=list(str(input_num))
 while len(list1)!=1:
